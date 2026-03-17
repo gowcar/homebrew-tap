@@ -1,28 +1,28 @@
 class Mdx < Formula
   desc "A fast, beautiful terminal markdown viewer"
   homepage "https://github.com/gowcar/mdx"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/gowcar/mdx/releases/download/v#{version}/mdx-aarch64-apple-darwin.tar.gz"
-      sha256 "e08e317db69662c5118e0fd61ef951faee05591b39ea5b82417ddd839eb9f4d3"
+      sha256 "0bae3bb1d8793c0a85cdd0ac529b8f89f8a7032856e6adc7ba8df4265a693788"
     end
     on_intel do
       url "https://github.com/gowcar/mdx/releases/download/v#{version}/mdx-x86_64-apple-darwin.tar.gz"
-      sha256 "807349f757bb9fc537c941f7b748784aa3343550398dbdeecf5eb50e8338a21a"
+      sha256 "0655b60b45380cc2ea2b507c1aef7f3b9a3fcffe5c092dc6fe717f12597c9e44"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/gowcar/mdx/releases/download/v#{version}/mdx-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "2ef70c6c987f2de551803426a006ad616de3b77eb6fcae5d77f7c26794076a3b"
+      sha256 "05cecba87038be480d996d3237e1ba5b0df84c8910fa57f9680e58705356a179"
     end
     on_intel do
       url "https://github.com/gowcar/mdx/releases/download/v#{version}/mdx-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "4914e008e5b771d812167c86194f810d2c934e4ba656006e8bf820538eed51c5"
+      sha256 "46abf1bbf9c1ac9d07b4f2b3fb2506f073e16f46bb4963bd45579f80372957cb"
     end
   end
 
